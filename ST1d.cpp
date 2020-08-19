@@ -19,9 +19,12 @@ int main(){
 	}
 	int sum=0;
 	for(int i=0;i<n;i++){
+		//if contest is present
 		if(c[i]==1){
+			//perform well if he eat noodles
 			if(s[i]==1)
 			sum+=x;
+			//lose points otherwise
 			else
 			sum-=y;
 		}
